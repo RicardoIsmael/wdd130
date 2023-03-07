@@ -1,3 +1,16 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Happy Monkey", cursive;
+    font-weight: 600;
+}
 nav{
     background-color: steelblue;
     padding: 10px;
@@ -17,28 +30,55 @@ h1{
     border: 1px solid rgb(156, 142, 231);
     padding: 1px;
     box-shadow: 0 0 30px gray;
+    float:right;
+    margin: 30px 10px 5px 5px;
+    
 }
 p{
-    padding: 0;
+    margin:1rem;
 }
 aside{
     width:400px;
     margin: 8px;
     border:3px solid rgb(173, 173, 243) ;
-    background-color:rgb(204, 204, 241) ;
-    color:#335 ;
     text-align:center;
+    padding: 4px;
+    position: relative;
 }
+
 aside img{
-    width: 200px;
+    width: 350px;
     height: auto;
     border: 2px solid rgb(173, 173, 243);
     padding:4px 4px;
     background-color:rgb(247, 237, 223);
+    
+}
+aside h2{
+    position:absolute;
+    font-size:1.2em;
+    top:5%;
+    left:15%;
+    color:white;
+    
+    
+}
+/*Class selector*/
+.box{
+    margin:1rem;
+    padding:1rem;
+    border:1px solid rgba(0,0,0,.1);
+    background-color:rgb(204, 204, 241);
+    color:#335;    
+}
+.intent{
+    padding-left: 2rem;
+    width:50%;
+    list-style-type: none;
 }
 footer{
     margin-top:1px ;
     border-top: 1px solid black ;
-text-align: center;
+    text-align: center;
 
 }
