@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Urbanist:ital,wght@1,200&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+     box-sizing: border-box;
+}
+body{
+    font-family: 'Nanum Gothic', serif, cursive;
+    font-size: 23px;
+    font-weight: 700;
+    color:#333;
+    background:#fff;
+}
+header{
+    margin: 0 auto;
+    width:650px;
+}
+h1{
+margin:25px;
+font-size: 35px;
+color:navy;
+text-align: center;
+
+}
+form{
+    width: 580px;
+    margin: 0 auto;
+    padding:15px ;
+    border-radius: 20px;
+    border: 3px solid #bac5bc;
+    background-color: rgba(166, 245, 166, 0.842);
+    display: grid;
+}
+fieldset{
+    display: grid;
+    gap:15px;
+    margin:9px;
+    border: 3px solid rgba(149, 187, 149, 0.842);
+    border-radius: 20px;
+    padding: 15px;
+} 
+legend{
+    text-align: center;
+    font-family: 'urbanist ital', 'Lucida Sans', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    color:navy;
+    padding-left: 8px;
+    padding-right:8px;
+}
+label, input, button, select,textarea{
+    font-family: 'urbanist',cursive,sans-serif;
+}
+label{
+    text-align: right;
+    padding-right:20px;
+}
+input, select, textarea{
+    padding:5px;
+    font-size: 25px;
+    border-radius:10px;
+}
+input[type='checkbox']{
+    width: 22px;
+    height: 22px;
+    vertical-align:bottom;
+}
+button:hover{
+    background-color: rgb(67, 153, 153);
+}
+footer{
+    width: 580px;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 2px solid navy;
+    color: rgb(131, 131, 153); 
+}
+.form-item{
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+.column2{
+    grid-template-columns: 30% 70%;
+    margin: 3px;
+}
+label{
+    text-align: center;
+}
+button{
+    width:50%;
+    height:50px;
+    border: 2px solid rgb(204, 197, 197);
+    border-radius: 20px;
+    margin: auto;
+    font-family: 'Urbanist', cursive,sans-serif;
+    font-weight: 800;
+    background:rgb(27, 27, 134);
+    color: white
+    
+}
